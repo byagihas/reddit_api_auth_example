@@ -1,0 +1,17 @@
+
+## Available Scripts
+
+Run to get access token in token.json after setting parameters in .env:
+
+REDDIT_API_SECRET=
+REDDIT_API_CLIENT=
+REDDIT_REDIRECT_URI=
+REDDIT_USER=
+REDDIT_PASS=
+
+npm start
+
+Run to get example from r/food (or specify subreddt in getPostsFromSubreddit.js) using token:
+
+node getPostsFromSubreddit.js
+
