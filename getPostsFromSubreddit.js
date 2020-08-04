@@ -32,8 +32,8 @@ const getPostsFromSubreddit = (subreddit) => {
         let body_parsed = JSON.parse(response.body);
         posts = JSON.stringify(body_parsed.data.children);
     }).then((posts) => {
-        fs.writeFileSync(__dirname + '/data/possibleRecipePosts.json', posts);
-        console.log('File written to: ' + __dirname + '/data/possibleRecipePosts.json');
+        fs.writeFileSync(__dirname + '/posts.json', posts);
+        console.log('File written to: ' + __dirname + '/posts.json');
     });
 };
 
