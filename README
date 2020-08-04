@@ -1,7 +1,7 @@
 
 ## Available Scripts
 
-Run to get access token in token.json after setting parameters in .env:
+Run to get access token in token.json after setting parameters in a .env file:
 
 REDDIT_API_SECRET=
 REDDIT_API_CLIENT=
@@ -9,6 +9,7 @@ REDDIT_REDIRECT_URI=
 REDDIT_USER=
 REDDIT_PASS=
 
+npm install
 npm start
 
 Run to get example from r/food (or specify subreddt in getPostsFromSubreddit.js) using token:
