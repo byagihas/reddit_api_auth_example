@@ -25,7 +25,7 @@ const PASS = process.env.REDDIT_PASS;
 // using Request package to make a POST call to the Reddit API
 const getToken = (cliend_id, client_secret, usr, pswd) => {
     const accessuri = `https://www.reddit.com/api/v1/access_token`;
-    const data_object = {grant_type: "password", username: usr, password: pswd};
+    const data_object = { grant_type: "password", username: usr, password: pswd };
     const post_data = querystring.stringify(data_object);
     const length = post_data.length;
 
